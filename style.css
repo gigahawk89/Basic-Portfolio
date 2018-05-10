@@ -1,0 +1,47 @@
+.header {
+    font-size: 28px;
+    display: block;
+    background-color: #ffffff;
+    text-align: center;
+    border-style: solid;
+    border-color: #cccccc 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    padding: 20px;
+    
+}
+
+.main { 
+    width: 960px;
+    flex: 1;
+    flex-basis: row;
+    background-color: #ffffff;
+}
+
+
+
+.about {
+    display: block;
+    font-size: 30px;
+    border-style: dotted;
+    border-color: #dddddd;
+
+
+}
+
+p {
+    display: block;
+    width: 480;
+    border-style: solid;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+.teal {
+    color: teal;
+    
+}
