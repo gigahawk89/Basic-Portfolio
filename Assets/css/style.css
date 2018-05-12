@@ -1,25 +1,52 @@
 .header {
     font-size: 28px;
     display: block;
+    height: 32px;
+    width: 1535px;
     background-color: #ffffff;
     text-align: center;
     border-style: solid;
-    border-color: #cccccc 
-}
+    border-color: #cccccc;
+    position: absolute;
+    top: 0;
+    padding-bottom: 30px;
+    padding-top: 5px;
+   
+    }
+
+    h1 {
+        position: absolute;
+        top: -39px;
+        left: 195px;
+        border-style: solid;
+        border-color: #cccccc;
+        background-color: #4aaaa5;
+
+    }
 
 .container {
     display: flex;
     flex-direction: column;
     width: 960px;
-    padding: 20px;
-    
+    padding: 0px;
+    background-image: url ("C:\Users\ejmrt\Desktop\Code\Basic-Portfolio\Assets\images\purty_wood.png") blue;
+    background-color: beige;
+    margin: 0px;
 }
 
 .main { 
+    display: flex;
     width: 960px;
-    flex: 1;
-    flex-basis: row;
+    height: 500px;
+    flex-direction: column;
     background-color: #ffffff;
+    margin: 20px;
+    position: absolute;
+    top: 80px;
+    left: 175px;
+    align-content: center;
+    border-style: solid;
+    border-color: #dddddd;
 }
 
 
@@ -27,7 +54,7 @@
 .about {
     display: block;
     font-size: 30px;
-    border-style: dotted;
+    border-bottom-style: dotted;
     border-color: #dddddd;
 
 
@@ -35,13 +62,21 @@
 
 p {
     display: block;
-    width: 480;
-    border-style: solid;
-    background-color: #ffffff;
-    border-color: #dddddd;
+    
 }
 
 .teal {
     color: teal;
     
+}
+
+.footer {
+    background-color: #666666;
+    display: block;
+    height: 100px;
+    width: 1535px;
+    position: absolute;
+    bottom: 0px; 
+    text-align: center;
+
 }
